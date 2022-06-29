@@ -5,7 +5,7 @@ The aim of this project was to create a recommender based on a neural network mo
 
 - The original data was completely raw, so in the first file <code>project_1_data_preparation</code> basic data preprocessing had to be done. Firstly data such as the hashed name and phone number were deleted and after further filtering, the values from the most important features were aggregated into buckets.
 
-- Once the data had been properly prepared in <code>project_2_recommender_and_evaluation</code> file, it was necessary to define user and item features based on reservations. The next step was the content-based recommender itself, tuning of the recommender and eventually final evaluation.
+- Once the data had been properly prepared in <code>project_2_recommender_and_evaluation</code> file, it was necessary to choose a neural network model that was used in the recomender. The next step was the recommender itself, tuning of the recommender and eventually final evaluation.
 
 ### Archieved results
 ![Recommender results in comparison with Amazon and Netflix Recommenders](img/results.PNG?raw=true "Results in comparison with Amazon and Netflix Recommenders") <br>
